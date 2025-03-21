@@ -4,9 +4,16 @@ A new Flutter project.
 
 
 ## Screen Capture
+### **GIF Praktikum 1**
 ![GIF](Screen-Docs/GIF-Flutter01-MasterPlan.gif)
 
-## Soal Praktikum
+### **GIF Praktikum 2**
+![GIF](Screen-Docs/GIF-Flutter02-MasterPlan.gif)
+
+### **GIF Praktikum 3**
+![GIF](Screen-Docs/GIF-Flutter03-MasterPlan.gif)
+
+## Soal Praktikum 1
 1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silahkan diperbaiki.
 2. Jelaskan maksud dari langkah 4 pada praktikum tersebut! Mengapa dilakukan demikian?
 3. Mengapa perlu variabel plan di langkah 6 pada praktikum tersebut? Mengapa dibuat konstanta ?
@@ -14,7 +21,7 @@ A new Flutter project.
 5. Apa kegunaan method pada Langkah 11 dan 13 dalam lifecyle state ?
 Kumpulkan laporan praktikum Anda berupa document doc
 
-### **Jawaban**
+### **Jawaban Praktikum 1**
 1. Program telah berjalan sebagaimana mestinya
 2. Dengan mengelompokkan beberapa model ke dalam satu file, kita dapat mengimpor semua model tersebut dengan satu baris kode. Ini mengurangi jumlah baris kode yang diperlukan untuk impor di setiap file yang membutuhkan model tersebut. Misalnya, alih-alih menulis:
 
@@ -42,3 +49,14 @@ Kumpulkan laporan praktikum Anda berupa document doc
     **Langkah 13** : Di langkah ini, menambahkan method dispose(), yang dipanggil ketika objek state dihapus dari pohon widget. Method ini digunakan untuk membersihkan sumber daya yang tidak lagi diperlukan. Dalam konteks ini, memanggil scrollController.dispose() di dalam dispose(). Ini penting untuk membebaskan sumber daya yang digunakan oleh ScrollController dan mencegah kebocoran memori. Dengan membersihkan sumber daya yang tidak lagi diperlukan, membantu menjaga performa aplikasi dan memastikan bahwa aplikasi berjalan dengan efisien.
 
 6. Done
+
+## Soal Praktikum 2
+1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki sesuai dengan tujuan aplikasi tersebut dibuat.
+2. Jelaskan mana yang dimaksud InheritedWidget pada langkah 1 tersebut! Mengapa yang digunakan InheritedNotifier?
+3. Jelaskan maksud dari method di langkah 3 pada praktikum tersebut! Mengapa dilakukan demikian?
+4. Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
+5. Kumpulkan laporan praktikum Anda berupa doc !
+
+### **Jawaban Praktikum 2**
+1. Program telah berjalan sebagaimana mestinya
+
